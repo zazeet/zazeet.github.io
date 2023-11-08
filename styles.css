@@ -1,6 +1,21 @@
-
+@font-face {
+    font-family: 'mluvkabold';
+    src: url('fonts/mluvkabold/mluvka-bold-webfont.woff2') format('woff2'),
+         url('fonts/mluvkabold/mluvka-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+} 
+@font-face {
+    font-family: 'mluvkabold';
+    src: url('fonts/mluvkalight/mluvka-light-webfont.woff2') format('woff2'),
+         url('fonts/mluvkalight/mluvka-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    
+} 
 * {
-    font-family: 'Helvetica', Arial, sans serif;
+    font-family: 'courier',Helvetica,Arial,sans-serif;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -12,8 +27,12 @@ body {
 }
 .heading {  
     display:flex;
-    justify-content: space-evenly    
+    justify-content: space-evenly;
+    font-family: 'mluvkabold', 'Courier' ; 
 }
+    
+
+
 .flex-container {
       display: flex;
 }
