@@ -57,6 +57,9 @@ body {
     padding: 5px;
     margin: 10px;
     color: #ffffff;
+    position: relative;
+    
+
 } 
 
 .clickable-box{
@@ -65,5 +68,8 @@ body {
 }
 .clickable-box:hover {
     background-color: #023047; /* Change color on hover */
+}
+.menu-item:active {
+    top: 1px;
 }
 
